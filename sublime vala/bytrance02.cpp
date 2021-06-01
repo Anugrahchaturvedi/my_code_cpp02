@@ -11,7 +11,7 @@ int main()
 		long long int k ;
 		cin >> n >> k;
 		int a[27];
-		for (int i =0 ;i<26 ;i++)
+		for (int i =0 ;i<26 ;i=i+1)
 		{
 			a[i]=pow(2,i);
         }
